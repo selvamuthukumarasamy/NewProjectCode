@@ -21,6 +21,8 @@ public class Screenshot {
 		System.out.println(source);
 		File dest= new File("E:\\selva\\login.png");
 		FileUtils.copyFile(source,dest);
+		System.out.println("ScreenShot Taken");
+		
 	}
 
 }
